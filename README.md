@@ -4,9 +4,9 @@ This plugin allows Native & WebViews to log events with parameters to Firebase A
 # Installation
 Import the plugin to your project as explain [here](https://github.com/cobaltians/cobalt/wiki/Plugins-usage).
 
-Further native steps are needed.
+Further native steps are needed...
 ## Android
-- Follow the steps at https://firebase.google.com/docs/android/setup, except adding the following line to the `build.gradle` file of your app (it is already added as a dependency in the plugin): 
+Follow the steps at https://firebase.google.com/docs/android/setup, except adding the following line to the `build.gradle` file of your app (it is already added as a dependency in the plugin): 
 
 ```
 compile 'com.google.firebase:firebase-core:11.2.0'
@@ -18,7 +18,7 @@ compile 'com.google.firebase:firebase-core:11.2.0'
 - In the `application:didFinishLaunchingWithOptions:` `AppDelegate`'s method, call `[FirebaseAnalyticsPlugin configure]`
 
 # How to use
-## Android
+## Android
 Get an instance of the plugin from the class method `getInstance(Context)`.
 
 Then use methods `logEvent(String event)` & `logEvent(String event, Bundle parameters)` to log events with params to Firebase Analytics.
@@ -54,7 +54,7 @@ same idea. it should match the values of firebase constants if you want your eve
 
 You can of course send your own parameters.
 # Debug mode
-## Android
+## Android
 - to enable, execute the following line in a terminal:
 
 ```
@@ -66,7 +66,7 @@ adb shell setprop debug.firebase.analytics.app <package_name>
 adb shell setprop debug.firebase.analytics.app .none.
 ```
 
-## iOS
+## iOS
 - In Xcode, select 'Product' > 'Scheme' > 'Edit scheme...'
 - Select 'Run' from the left menu.
 - Select the 'Arguments' tab.
