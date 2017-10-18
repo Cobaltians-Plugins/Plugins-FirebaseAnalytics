@@ -1,0 +1,9 @@
+[submodule "Web"]
+	path = Web
+	url = https://github.com/Cobaltians-Plugins/Plugins-FirebaseAnalytics-Web.git
+[submodule "iOS"]
+	path = iOS
+	url = https://github.com/Cobaltians-Plugins/Plugins-FirebaseAnalytics-iOS.git
+[submodule "Android"]
+	path = Android
+	url = https://github.com/Cobaltians-Plugins/Plugins-FirebaseAnalytics-Android.git
